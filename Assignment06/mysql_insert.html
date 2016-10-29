@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="format.css">
+</head>
+<body>
+<h1> Please enter your data </h1>
+<form action="mysql_insert.php" method="post">
+    <table border="0">
+        <tr>
+            <td>Last name:</td>
+            <td><input type="text" name="lastName" size="30" maxlength="40"></td>
+        </tr>
+        <tr>
+            <td>First name:</td>
+            <td><input type="text" name="firstName" size="30" maxlength="40"></td>
+        </tr>
+        <tr>
+            <td>Street:</td>
+            <td><input type="text" name="street" size="30" maxlength="40"></td>
+        </tr>
+        <tr>
+            <td>PLZ:</td>
+            <td><input type="text" name="PLZ" size="30" maxlength="40"></td>
+        </tr>
+        <tr>
+            <td>Place:</td>
+            <td><input type="text" name="place" size="30" maxlength="40"></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="checkbox" name="e-mail" value="e-mail"/>
+    E-Mail<br/>
+    <input type="checkbox" name="newsletter" value="newsletter"/>
+    Newsletter<br/>
+    <input type="checkbox" name="fax" value="fax"/>
+    Fax<br/>
+    <input type="checkbox" name="letter" value="letter"/>
+    Letter<br/>
+    <br/>
+    <input type="Submit" name="OK" VALUE="Send"/>
+    <input type="reset" name="reset" VALUE="reset"/>
+</form>
+</body>
+</html>
+

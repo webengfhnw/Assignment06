@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>4a384619-8e18-4d64-8fd2-c47202265a9a.TABLE:customer.jointable</OriginalElement>
+  <nodes>
+    <node x="0.0" y="44.0">4a384619-8e18-4d64-8fd2-c47202265a9a.TABLE:customer.informationtype</node>
+    <node x="123.25" y="213.0">4a384619-8e18-4d64-8fd2-c47202265a9a.TABLE:customer.jointable</node>
+    <node x="218.0" y="0.0">4a384619-8e18-4d64-8fd2-c47202265a9a.TABLE:customer.address</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="4a384619-8e18-4d64-8fd2-c47202265a9a.TABLE:customer.jointable" target="4a384619-8e18-4d64-8fd2-c47202265a9a.TABLE:customer.address">
+      <point x="49.5" y="-37.0" />
+      <point x="271.75" y="188.0" />
+      <point x="345.5" y="188.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="4a384619-8e18-4d64-8fd2-c47202265a9a.TABLE:customer.jointable" target="4a384619-8e18-4d64-8fd2-c47202265a9a.TABLE:customer.informationtype">
+      <point x="-49.5" y="-37.0" />
+      <point x="172.75" y="188.0" />
+      <point x="99.0" y="188.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="236.5" y="143.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
